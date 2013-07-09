@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Untitled Document</title>
 <link href="style.css" rel="stylesheet" type="text/css">
-<?php include 'apinew.php'; 
+<?php include 'api.php'; 
 $API = new LodestoneAPI();
 $ID = $_POST['id'];
 $API->parseProfile($ID);
