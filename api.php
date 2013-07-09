@@ -1,16 +1,5 @@
 <?
-	/*
-		XIVPads.com (v4) - Lodestone Query API
-		--------------------------------------------------
-		Author: 	Josh Freeman (Premium Virtue)
-		Support:	http://xivpads.com/?Portal
-		Version:	4.0
-		PHP:		5.4
-		
-		Always ensure you download from the github
-		https://github.com/viion/XIVPads-LodestoneAPI
-		--------------------------------------------------
-	*/
+	
 
 	// Debug stuff
  	# error_reporting(-1);
