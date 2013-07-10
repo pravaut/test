@@ -6,9 +6,7 @@
 <link href="style.css" rel="stylesheet" type="text/css">
 <?php include 'api.php'; 
 $API = new LodestoneAPI();
-$ID = $_POST['id'];
-$API->parseProfile($ID);
-$Character = $API->getCharacterByID($ID);
+$Character = $API->get("Darka Munday", "Ragnarok");
 ?>
 
 </head>
