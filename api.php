@@ -1,9 +1,20 @@
-<?php 
-	
+<?php
+	/*
+		XIVPads.com (v4) - Lodestone Query API
+		--------------------------------------------------
+		Author: 	Josh Freeman (Premium Virtue)
+		Support:	http://xivpads.com/?Portal
+		Version:	4.0
+		PHP:		5.4
+		
+		Always ensure you download from the github
+		https://github.com/viion/XIVPads-LodestoneAPI
+		--------------------------------------------------
+	*/
 
 	// Debug stuff
  	# error_reporting(-1);
-	function show($Data) { echo '<pre>'; print_r($Data); echo '</pre>'; }
+	//function show($Data) { echo '<pre>'; print_r($Data); echo '</pre>'; }
 
 	/*	LodestoneAPI
 	 *	------------
@@ -921,16 +932,16 @@
 
 
 	// Setup API
-	$API = new LodestoneAPI();
+	#$API = new LodestoneAPI();
 	
 	# $API->searchCharacter("P'r'e'm'i'u'm V'i't'", "Hyperion");
 	# Show($API->getSearch());
 	
 	// Set character object (echo portrait for example)
-	$Character = $API->get("Darka Munday", "Ragnarok");
-	Show("class = " . $Character->getActiveClass());
-	Show("job = ". $Character->getActiveJob());
-	Show("level = ". $Character->getActiveLevel());
+	#$Character = $API->get("Darka Munday", "Ragnarok");
+	#Show("class = " . $Character->getActiveClass());
+	#Show("job = ". $Character->getActiveJob());
+	#Show("level = ". $Character->getActiveLevel());
 	# echo '<img src="'. $Character->getPortrait() .'" />';
 	
 	// Search by Name + Server
